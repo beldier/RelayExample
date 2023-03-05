@@ -1,0 +1,509 @@
+{
+  "name": "property_task",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "JvV87flBcUB1Nls05snBFS",
+    "node": "62:128",
+    "version": "3114941580",
+    "component-id": "4816297a2b8fe89ea1b87608701fe223047483a0"
+  },
+  "default": "PropertyTask",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "First Row"
+      },
+      {
+        "type": "group",
+        "id": "Second Row"
+      },
+      {
+        "type": "group",
+        "id": "Company Content"
+      },
+      {
+        "type": "group",
+        "id": "Code Content"
+      },
+      {
+        "type": "text",
+        "id": "Company Title"
+      },
+      {
+        "type": "text",
+        "id": "Company"
+      },
+      {
+        "type": "text",
+        "id": "Code Title"
+      },
+      {
+        "type": "text",
+        "id": "Code"
+      },
+      {
+        "type": "group",
+        "id": "Category Content"
+      },
+      {
+        "type": "group",
+        "id": "Address Content"
+      },
+      {
+        "type": "text",
+        "id": "Category Title"
+      },
+      {
+        "type": "text",
+        "id": "Category"
+      },
+      {
+        "type": "text",
+        "id": "Address Title"
+      },
+      {
+        "type": "text",
+        "id": "Address"
+      }
+    ],
+    "modes": {
+      "PropertyTask": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": {
+              "left": "11.0",
+              "right": "11.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "First Row",
+              "Second Row"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "First Row",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "338.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "Company Content",
+              "Code Content"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "Second Row",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "338.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "Category Content",
+              "Address Content"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "Company Content",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "36.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Company Title",
+              "Company"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Code Content",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "36.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Code Title",
+              "Code"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Company Title",
+            "margin": {
+              "right": "115.0",
+              "bottom": "20.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Company",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "12.0",
+            "letter-spacing": "0.4000000059604645",
+            "line-height": "1.3333332824707032"
+          },
+          {
+            "id": "Company",
+            "margin": {
+              "top": "12.0",
+              "right": "101.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "$Company Name Text",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "16.0",
+            "letter-spacing": "0.5",
+            "line-height": "1.5",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Code Title",
+            "margin": {
+              "right": "140.0",
+              "bottom": "20.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Code",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "12.0",
+            "letter-spacing": "0.4000000059604645",
+            "line-height": "1.3333332824707032"
+          },
+          {
+            "id": "Code",
+            "margin": {
+              "top": "12.0",
+              "right": "101.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "$Code Name Text",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "16.0",
+            "letter-spacing": "0.5",
+            "line-height": "1.5",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Category Content",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "36.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Category Title",
+              "Category"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Address Content",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "36.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Address Title",
+              "Address"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Category Title",
+            "margin": {
+              "right": "118.0",
+              "bottom": "20.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Category",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "12.0",
+            "letter-spacing": "0.4000000059604645",
+            "line-height": "1.3333332824707032"
+          },
+          {
+            "id": "Category",
+            "margin": {
+              "top": "12.0",
+              "right": "101.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "$Category Name Text",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "16.0",
+            "letter-spacing": "0.5",
+            "line-height": "1.5",
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Address Title",
+            "margin": {
+              "right": "122.0",
+              "bottom": "20.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Address",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "12.0",
+            "letter-spacing": "0.4000000059604645",
+            "line-height": "1.3333332824707032"
+          },
+          {
+            "id": "Address",
+            "margin": {
+              "top": "12.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "$Address Name Text",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "16.0",
+            "letter-spacing": "0.5",
+            "line-height": "1.5",
+            "typeface": "Poppins"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "Company Name Text": {
+      "data-type": "text",
+      "required": false,
+      "description": "Company name"
+    },
+    "Code Name Text": {
+      "data-type": "text",
+      "required": false,
+      "description": "Code Text"
+    },
+    "Category Name Text": {
+      "data-type": "text",
+      "required": false,
+      "description": "Category Text"
+    },
+    "Address Name Text": {
+      "data-type": "text",
+      "required": false,
+      "description": "Address name"
+    }
+  },
+  "previews": [
+    {
+      "design": "PropertyTask",
+      "size": {
+        "width": 360.0,
+        "height": 72.0
+      },
+      "parameters": {
+        "Company Name Text": "Content",
+        "Code Name Text": "Content",
+        "Category Name Text": "Content",
+        "Address Name Text": "Content"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
